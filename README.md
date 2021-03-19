@@ -18,7 +18,6 @@
 2. Under the Annotation of "# Source: ingress-nginx/templates/controller-service.yaml" Replace the all existing annotation content in that section with the following annotation.
 ```
    service.beta.kubernetes.io/aws-load-balancer-backend-protocol: "http"
-   service.beta.kubernetes.io/aws-load-balancer-proxy-protocol: "\*"
    service.beta.kubernetes.io/aws-load-balancer-ssl-cert: "xxxxxxxARN\_\_HERExxxxxx"
    service.beta.kubernetes.io/aws-load-balancer-type: "nlb"
    service.beta.kubernetes.io/aws-load-balancer-ssl-ports: "443"
